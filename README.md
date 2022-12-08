@@ -40,7 +40,7 @@ The About Page will hold all information regarding the application and how to us
 
 
 
-### Notes:
+## Notes:
 
 Currently the Navigation Bar is not complete. It has not been implemented as of yet.
 
