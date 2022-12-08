@@ -12,6 +12,7 @@ The AlbumCard is displayed on the Home Page and shows the Rank, the Title, and t
 
 Each AlbumCard is able to be clicked. When clicked the AlbumCard opens a new Tab and shows the Wikipedia of the Album.
 
+
 ## What was used
 
 The application uses React for the User Interface. The application uses JSX, CSS, JavaScript, Tailwind and JSON files to achieve the final result.
@@ -26,9 +27,15 @@ The React file structure is simple. Inside the src folder there is a components 
 a NavBar folder containing the Navbar.jsx file,
 and a Pages folder containing the two pages in the application.
 
-## Components
 
-The application has a Home Page, and an About page.
+## Pages
+
+The application has a Home Page, and an About Page.
+
+The Home Page simply holds all the albums and relevant data.
+
+The About Page will hold all information regarding the application and how to use it.
+
 
 ### Notes
 
