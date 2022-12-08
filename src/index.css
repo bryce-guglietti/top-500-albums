@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --font-base: "DM Sans", sans-serif;
+  --primary-color: #eeeeee;
+  --secondary-color: #000000;
+  --third-color: #979797;
+  --dark-color: #666666;
+  --accent-color: #0088cc;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

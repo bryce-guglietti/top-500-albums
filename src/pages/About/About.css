@@ -1,0 +1,15 @@
+.about__page{
+    width: 100%;
+    flex-direction: column;
+    flex:1;
+
+
+}
+
+.about__items{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 2rem;
+
+}
