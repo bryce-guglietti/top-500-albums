@@ -1,4 +1,5 @@
 # Rolling Stone Top 500 Albums
+Visit the Website at: https://rollingstonetop500.netlify.app/
 
 ## About
 
@@ -37,7 +38,9 @@ The Home Page simply holds all the albums and relevant data.
 The About Page will hold all information regarding the application and how to use it.
 
 
-### Notes
+
+
+### Notes:
 
 Currently the Navigation Bar is not complete. It has not been implemented as of yet.
 
