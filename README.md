@@ -31,9 +31,11 @@ and a Pages folder containing the two pages in the application.
 
 ## Pages
 
-The application has a Home Page, and an About Page.
+The application has a Home Page, A Stats Page, and an About Page.
 
 The Home Page simply holds all the albums and relevant data.
+
+The Stats Page holds simple statistics about the data including Artists holding the most albums in the top 500.
 
 The About Page will hold all information regarding the application and how to use it.
 
