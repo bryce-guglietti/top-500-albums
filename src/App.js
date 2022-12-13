@@ -1,12 +1,10 @@
 import './App.css';
 import React from 'react';
-import {Navbar} from './Navbar'
-import { Home, About } from './pages';
-
+import { Home, About, Stats } from './pages';
 const App = () => (
   <div className="app">
-    <Navbar />
     <Home />
+    <Stats />
     <About />
     
   </div>
