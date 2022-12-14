@@ -1,0 +1,69 @@
+#image-track{
+    display:flex;
+    gap: 4vmin;
+    position: relative;
+    user-select: none;
+    overflow-x: scroll;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#image-track > .image {
+    width: 22vmin;
+    height: 22vmin;
+    object-fit: cover;
+    object-position: 100% center;
+    box-shadow:12px 10px 5px grey;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+#image-track > .image:hover {
+    box-shadow: 0 0 15px rgba(0,136,204, .7)
+}
+
+.symbol {
+    width: 120px;
+    height: 35px;
+    transform: translate(0,-5%);
+}
+
+div.track::-webkit-scrollbar{
+    height: 1.2em;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+div.track::-webkit-scrollbar-track{
+    background-color: rgba(102,102,102, .1);
+    margin-inline: 6rem;
+    border-radius: 100vw;
+
+}
+
+div.track::-webkit-scrollbar-thumb{
+    background-color: rgba(102, 102, 102,.6);
+    border-radius: 100vw;
+}
+
+div.track::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(102, 102, 102,.3);
+}
+
+@media (max-width: 700px) {
+    div.track::-webkit-scrollbar{
+        height: 0px;
+    }
+
+    #image-track > .image {
+        width: 32vmin;
+        height: 32vmin;
+        object-fit: cover;
+        object-position: 100% center;
+        box-shadow:12px 10px 5px grey;
+        cursor: pointer;
+        margin-bottom: 1rem;
+    }
+    
+}

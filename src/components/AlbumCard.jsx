@@ -8,11 +8,11 @@ const AlbumCard = ({album, i, loading}) => {
     return <h2>Loading...</h2>
   }
   return (
-    <div className='flex flex-col w-[380px] h-[150px] ml-16 p-4 bg-black bg-opacity-95 backdrop-blur-sm animate-slideup rounded-lg cursor-pointer hover:scale-110 hover:shadow-[0_0_25px_rgba(0,136,204,0.8)]'>
+    <div className='flex flex-col w-[380px] h-[150px] ml-16 p-4 bg-black bg-opacity-95 backdrop-blur-sm animate-slideup rounded-lg cursor-pointer hover:scale-110 sm:hover:shadow-[0_0_25px_rgba(0,136,204,0.8)] max-sm:w-[320px] max-sm:ml-0'>
         <div className='relative w-full h-56 group'>
         <div className='absolute inset-0 justify-center items-center'>
-        <div className='mt-2 flex flex-col ' onClick={() => openInNewTab(`https://en.wikipedia.org/wiki/${album.title}`)}>
-          <p className='font-extrabold text-lg text-primary flex justify-center'>
+        <div className='mt-2 flex flex-col max-sm:mt-0' onClick={() => openInNewTab(`https://en.wikipedia.org/wiki/${album.title}`)}>
+          <p className='font-extrabold text-lg text-primary flex justify-center max-sm:font-normal max-sm:justify-start'>
             Rank: {album.position}
           </p>
           <p className='text-primary justify-start font-semibold mt-3 truncate'>

@@ -10,7 +10,7 @@ const Pagination = ({albumsPerPage, totalAlbums, paginate}) => {
 
   return (
     <div>
-        <ul className='flex flex-wrap w-[700px] h-[60px] justify-center p-3 mb-10 rounded-xl bg-black'>
+        <ul className='flex flex-wrap w-[700px] h-[60px] justify-center p-3 mb-10 rounded-xl bg-black max-sm:items-center max-sm:w-[90%] max-sm:h-[100px] max-sm:ml-3'>
             {pageNumbers.map(number => (
                 <li key = {number} class = "links">
                 <a onClick={()=> {paginate(number) }} href="#" class="number">

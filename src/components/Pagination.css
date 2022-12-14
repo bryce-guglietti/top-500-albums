@@ -19,6 +19,9 @@
     scale: 120%;
 
 }
-/*text-lg w-[18px] hover:scale-110 font-semibold flex flex-row ml-1.5 mr-1.5 justify-center items-center text-white
-
-*/
+@media (max-width: 700px) {
+    .links{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
