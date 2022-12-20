@@ -49,3 +49,6 @@ Currently the Navigation Bar is not complete. It has not been implemented as of 
 The About page is not complete yet and will show all necessary information when completed.
 
 Future updates will have a search field and a sorting field to enhance the user experience.
+
+## How to Run on LocalHost
+Pull the code, open a terminal (in VSCode for example), cd into the top-500-albums folder and run commmand npm start.
